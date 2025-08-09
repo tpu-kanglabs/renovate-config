@@ -1,0 +1,28 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": ["astral-sh/ruff-pre-commit", "ruff"],
+      "groupName": "ruff",
+      "groupSlug": "ruff"
+    },
+    {
+      "matchPackageNames": ["pre-commit/mirrors-mypy", "mypy"],
+      "groupName": "mypy",
+      "groupSlug": "mypy"
+    },
+    {
+      "matchPackageNames": ["fastai/nbdev", "nbdev"],
+      "groupName": "nbdev",
+      "groupSlug": "nbdev"
+    },
+    {
+      "matchPackageNames": ["torch", "torchvision", "torchaudio"],
+      "groupName": "PyTorch",
+      "groupSlug": "pytorch"
+    },
+    {
+      "matchPackageNames": ["nvidia/cuda"],
+      "enabled": false
+    }
+  ]
+}

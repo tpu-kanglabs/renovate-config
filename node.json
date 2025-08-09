@@ -1,0 +1,6 @@
+{
+  "npm": {
+    "extends": ["helpers:disableTypesNodeMajor", "packages:eslint"],
+    "rangeStrategy": "bump"
+  }
+}

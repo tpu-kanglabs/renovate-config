@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:recommended",
+    ":separateMultipleMajorReleases",
+    ":timezone(Asia/Tokyo)",
+    ":labels(dependencies)",
+    "github>tpu-kanglabs/renovate-config:actions",
+    "github>tpu-kanglabs/renovate-config:node",
+    "github>tpu-kanglabs/renovate-config:python"
+  ],
+  "configMigration": true,
+  "minimumReleaseAge": "3 days",
+  "schedule": ["* 8-17 * * 1-5"]
+}
