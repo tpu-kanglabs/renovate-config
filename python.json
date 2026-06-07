@@ -1,4 +1,7 @@
 {
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchPackageNames": ["astral-sh/ruff-pre-commit", "ruff"],
@@ -23,6 +26,10 @@
     {
       "matchPackageNames": ["nvidia/cuda"],
       "enabled": false
+    },
+    {
+      "matchManagers": ["uv"],
+      "rangeStrategy": "update-lockfile"
     }
   ]
 }
