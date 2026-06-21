@@ -5,6 +5,7 @@
     ":timezone(Asia/Tokyo)",
     ":labels(dependencies)",
     "github>tpu-kanglabs/renovate-config:actions",
+    "github>tpu-kanglabs/renovate-config:go",
     "github>tpu-kanglabs/renovate-config:node",
     "github>tpu-kanglabs/renovate-config:python"
   ],
