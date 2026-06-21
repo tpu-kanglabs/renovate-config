@@ -1,7 +1,4 @@
 {
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "packageRules": [
     {
       "matchPackageNames": ["astral-sh/ruff-pre-commit", "ruff"],
