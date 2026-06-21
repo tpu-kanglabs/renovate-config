@@ -1,0 +1,9 @@
+{
+  "packageRules": [
+    {
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["golang"],
+      "enabled": true
+    }
+  ]
+}
