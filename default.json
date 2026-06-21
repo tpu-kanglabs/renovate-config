@@ -10,5 +10,10 @@
   ],
   "configMigration": true,
   "minimumReleaseAge": "3 days",
-  "schedule": ["* 8-17 * * 1-5"]
+  "schedule": [
+    "* 8-17 * * 1-5"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
