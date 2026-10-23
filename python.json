@@ -21,6 +21,11 @@
       "groupSlug": "pytorch"
     },
     {
+      "matchPackageNames": ["uv", "uv-build", "uv_build"],
+      "groupName": "uv",
+      "groupSlug": "uv"
+    },
+    {
       "matchPackageNames": ["nvidia/cuda"],
       "enabled": false
     },
